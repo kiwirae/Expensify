@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render expense list item 1`] = `
+<div>
+  <Link
+    replace={false}
+    to="/edit/1"
+  >
+    <h3>
+      Apple
+    </h3>
+  </Link>
+  <p>
+    1.80
+    -
+    Sunday, December 23rd 2018, 12:00:00 am
+  </p>
+</div>
+`;
