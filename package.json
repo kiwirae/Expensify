@@ -8,7 +8,9 @@
     "build": "webpack -p --env production",
     "dev-server-babel": "babel src/index.js -o public/scripts/bundle.js --presets env,react --watch",
     "serve": "live-server public",
-    "test": "jest --config=jest.config.json"
+    "test": "jest --config=jest.config.json",
+    "start": "node server/server.js",
+    "heroku-postbuild": "npm run build"
   },
   "author": "",
   "license": "ISC",
@@ -25,6 +27,7 @@
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.8.0",
     "enzyme-to-json": "^3.3.5",
+    "express": "^4.16.4",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "jest": "^23.6.0",
     "live-server": "^1.2.1",
