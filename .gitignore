@@ -1,3 +1,5 @@
 node_modules/
 coverage/
 public/scripts/
+.env.test
+.env.development
