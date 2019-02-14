@@ -67,7 +67,7 @@ module.exports = (env) => {
       publicPath: '/scripts/',
       historyApiFallback: true
     },
-    devtool: isProduction ? 'source-map' : 'inline-source-map'
+    devtool: isProduction ? 'source-map' : 'cheap-module-eval-source-map'
   }
 }
 
