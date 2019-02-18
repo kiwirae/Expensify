@@ -5,7 +5,6 @@ import ExpenseSummary from './ExpenseSummary'
 
 export default () => (
   <div>
-    <p>This is from my dashboard component</p>
     <ExpenseSummary />
     <ExpenseListFilters />
     <ConnectedExpenseList />
