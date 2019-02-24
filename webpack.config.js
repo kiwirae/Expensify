@@ -14,7 +14,6 @@ module.exports = (env) => {
   const isProduction = env === 'production'
   const CSSExtract = new ExtractTextPlugin('styles.css')
 
-  console.log(env)
   return {
     entry: ['babel-polyfill', './src/index.js'],
     output: {
